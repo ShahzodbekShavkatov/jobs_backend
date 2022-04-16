@@ -2,11 +2,11 @@ import { Sequelize } from 'sequelize'
 import models from '../models/index.js'
 
 const sequelize = new Sequelize({
-	username: 'postgres',
-	database: 'jobs_db',
-	password: '0807',
-	dialect: 'postgres',
-	// logging: false
+	host: 'john.db.elephantsql.com',
+	username: 'ylvcfwky',
+	database: 'ylvcfwky',
+	password: '1eKQjE7DkztvtXsRHZERHWC4lJihO70l',
+	dialect: 'postgres'
 })
 
 // const sequelize = new Sequelize('postgres://knudmmjn:9CMHCMI6AVY5JTfMKPWPNMh_b0ZXhcdK@john.db.elephantsql.com/knudmmjn')
